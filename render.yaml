@@ -1,5 +1,5 @@
 services:
-  # Backend Medusa
+  # Backend Medusa seulement pour commencer
   - type: web
     name: medusa-backend
     runtime: node
@@ -19,39 +19,13 @@ services:
       - key: COOKIE_SECRET
         generateValue: true
       - key: STORE_CORS
-        value: https://medusa-storefront-*.onrender.com,http://localhost:8000
+        value: http://localhost:8000
       - key: ADMIN_CORS
-        value: https://medusa-backend-*.onrender.com,http://localhost:9000
+        value: http://localhost:9000
       - key: AUTH_CORS
-        value: https://medusa-backend-*.onrender.com,https://medusa-storefront-*.onrender.com,http://localhost:8000,http://localhost:9000
+        value: http://localhost:8000,http://localhost:9000
       - key: MEDUSA_ADMIN_ONBOARDING_TYPE
         value: default
-      - key: MEDUSA_ADMIN_ONBOARDING_NEXTJS_DIRECTORY
-        value: ../medusa-demo-storefront
-
-  # Storefront Next.js
-  - type: web
-    name: medusa-storefront
-    runtime: node
-    plan: free
-    rootDir: medusa-demo-storefront
-    buildCommand: yarn install && yarn build
-    startCommand: yarn start
-    envVars:
-      - key: NODE_ENV
-        value: production
-      - key: MEDUSA_BACKEND_URL
-        value: https://medusa-backend-*.onrender.com
-      - key: NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY
-        value: pk_temp_placeholder_will_be_updated_after_backend_deployment
-      - key: NEXT_PUBLIC_BASE_URL
-        value: https://medusa-storefront-*.onrender.com
-      - key: NEXT_PUBLIC_DEFAULT_REGION
-        value: fr
-      - key: NEXT_PUBLIC_STRIPE_KEY
-        value: # Optional: Add your Stripe public key
-      - key: REVALIDATE_SECRET
-        generateValue: true
 
 databases:
   - name: medusa-db
