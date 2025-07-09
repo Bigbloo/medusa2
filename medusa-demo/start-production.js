@@ -11,7 +11,7 @@ const adminBuildPath = path.join(__dirname, '.medusa', 'admin');
 if (!fs.existsSync(adminBuildPath)) {
   console.log('📦 Admin build not found, building admin...');
   try {
-    execSync('npx medusa build --admin', { stdio: 'inherit' });
+    execSync('npx medusa build --admin-only', { stdio: 'inherit' });
     console.log('✅ Admin build completed');
   } catch (error) {
     console.log('⚠️ Admin build failed, starting without admin interface');
