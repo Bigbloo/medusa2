@@ -6,7 +6,7 @@ services:
     plan: free
     rootDir: medusa-demo
     buildCommand: yarn install && yarn build
-    startCommand: yarn start
+    startCommand: node start-production.js
     envVars:
       - key: NODE_ENV
         value: production
