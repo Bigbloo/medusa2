@@ -3,7 +3,7 @@ services:
   - type: web
     name: medusa-backend
     runtime: node
-    plan: free
+    plan: starter
     rootDir: medusa-demo
     buildCommand: yarn install && yarn build
     startCommand: node start-production.js
