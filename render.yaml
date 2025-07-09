@@ -11,9 +11,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: DATABASE_URL
-        fromDatabase:
-          name: medusa-db
-          property: connectionString
+        value: postgresql://medusa:OCSg5gp84TDq50NvE3Pg7wP9xm3z3FF9@dpg-d1mq3kgdl3ps73cieogg-a.oregon-postgres.render.com/medusa_jyxk
       - key: JWT_SECRET
         generateValue: true
       - key: COOKIE_SECRET
@@ -26,9 +24,3 @@ services:
         value: http://localhost:8000,http://localhost:9000
       - key: MEDUSA_ADMIN_ONBOARDING_TYPE
         value: default
-
-databases:
-  - name: medusa-db
-    databaseName: medusa_production
-    user: medusa_user
-    plan: free
