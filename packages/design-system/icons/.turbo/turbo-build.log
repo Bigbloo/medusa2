@@ -1,0 +1,714 @@
+[36m
+[1msrc/components/index.ts[22m → [1mdist/umd/medusa-icons.min.js[22m...[39m
+[0m
+FILE                 GZIP     BROTLI   
+[32mmedusa-icons.min.js  78.79KB  55.69KB  
+[0m
+[1m[33m(!) Plugin visualizer: rollup output configuration missing sourcemap = true. You should add output.sourcemap = true or disable sourcemap in this plugin[39m[22m
+[1m[33m(!) Plugin visualizer: medusa-icons.min.js missing source map[39m[22m
+[32mcreated [1mdist/umd/medusa-icons.min.js[22m in [1m4.7s[22m[39m
+[36m
+[1msrc/components/index.ts[22m → [1mdist/cjs/medusa-icons.js[22m...[39m
+[0m
+FILE             GZIP     BROTLI   
+[32mmedusa-icons.js  85.20KB  57.30KB  
+[0m
+[1m[33m(!) Plugin visualizer: rollup output configuration missing sourcemap = true. You should add output.sourcemap = true or disable sourcemap in this plugin[39m[22m
+[1m[33m(!) Plugin visualizer: medusa-icons.js missing source map[39m[22m
+[32mcreated [1mdist/cjs/medusa-icons.js[22m in [1m3.9s[22m[39m
+[36m
+[1msrc/components/index.ts[22m → [1mdist/esm[22m...[39m
+[0m
+FILES                               GZIP      BROTLI    
+[32mindex.js                            3.39KB    3.04KB    
+[32macademic-cap-solid.js               1.09KB    0.94KB    
+[32macademic-cap.js                     0.99KB    0.88KB    
+[32madjustments-done.js                 1.08KB    0.95KB    
+[32madjustments.js                      0.92KB    0.80KB    
+[32mai-assistent-luminosity.js          1.89KB    1.63KB    
+[32mai-assistent.js                     1.83KB    1.58KB    
+[32mamazon.js                           1.54KB    1.33KB    
+[32mapple.js                            1.31KB    1.10KB    
+[32marchive-box.js                      0.97KB    0.85KB    
+[32marrow-down-circle.js                0.88KB    0.76KB    
+[32marrow-down-left-mini.js             0.83KB    0.72KB    
+[32marrow-down-left.js                  0.83KB    0.72KB    
+[32marrow-down-mini.js                  0.80KB    0.69KB    
+[32marrow-down-right-mini.js            0.83KB    0.72KB    
+[32marrow-down-tray.js                  0.85KB    0.74KB    
+[32marrow-down.js                       0.80KB    0.69KB    
+[32marrow-left-mini.js                  0.80KB    0.69KB    
+[32marrow-left.js                       0.80KB    0.69KB    
+[32marrow-long-down.js                  0.80KB    0.69KB    
+[32marrow-long-left.js                  0.80KB    0.69KB    
+[32marrow-long-right.js                 0.80KB    0.69KB    
+[32marrow-long-up.js                    0.80KB    0.69KB    
+[32marrow-path-mini.js                  0.94KB    0.82KB    
+[32marrow-path.js                       0.94KB    0.82KB    
+[32marrow-right-down.js                 0.83KB    0.72KB    
+[32marrow-right-mini.js                 0.80KB    0.69KB    
+[32marrow-right-on-rectangle.js         0.86KB    0.75KB    
+[32marrow-right.js                      0.80KB    0.69KB    
+[32marrow-up-circle-solid.js            0.97KB    0.85KB    
+[32marrow-up-down.js                    0.83KB    0.72KB    
+[32marrow-up-mini.js                    0.80KB    0.68KB    
+[32marrow-up-right-micro.js             0.80KB    0.69KB    
+[32marrow-up-right-mini.js              0.80KB    0.69KB    
+[32marrow-up-right-on-box.js            0.87KB    0.76KB    
+[32marrow-up-tray.js                    0.85KB    0.74KB    
+[32marrow-uturn-left.js                 0.90KB    0.79KB    
+[32marrows-pointing-out-mini.js         0.81KB    0.70KB    
+[32marrows-pointing-out.js              0.81KB    0.70KB    
+[32marrows-reduce-diagonal.js           0.81KB    0.70KB    
+[32mat-symbol.js                        1.03KB    0.88KB    
+[32mbackward-solid.js                   0.92KB    0.81KB    
+[32mbars-arrow-down.js                  0.83KB    0.72KB    
+[32mbars-three.js                       0.79KB    0.67KB    
+[32mbeaker.js                           0.85KB    0.73KB    
+[32mbell-alert-done.js                  1.13KB    0.98KB    
+[32mbell-alert-solid.js                 0.91KB    0.78KB    
+[32mbell-alert.js                       0.96KB    0.83KB    
+[32mbolt-solid.js                       0.90KB    0.77KB    
+[32mbolt.js                             0.87KB    0.75KB    
+[32mbook-open.js                        1.02KB    0.88KB    
+[32mbook.js                             0.89KB    0.78KB    
+[32mbookmarks.js                        0.88KB    0.76KB    
+[32mbottom-to-top.js                    0.91KB    0.79KB    
+[32mbrackets.js                         0.96KB    0.85KB    
+[32mbroom-sparkle.js                    1.31KB    1.13KB    
+[32mbug-ant-solid.js                    1.12KB    0.98KB    
+[32mbug.js                              1.01KB    0.89KB    
+[32mbuilding-storefront.js              1.03KB    0.90KB    
+[32mbuilding-tax.js                     1.33KB    1.17KB    
+[32mbuildings-mini.js                   0.98KB    0.85KB    
+[32mbuildings-solid.js                  1.08KB    0.93KB    
+[32mbuildings.js                        0.98KB    0.84KB    
+[32mbutton.js                           0.91KB    0.81KB    
+[32mcalendar-mini.js                    1.07KB    0.94KB    
+[32mcalendar-solid.js                   1.01KB    0.88KB    
+[32mcalendar.js                         1.06KB    0.94KB    
+[32mcamera.js                           1.14KB    0.99KB    
+[32mcaret-maximize-diagonal.js          0.87KB    0.76KB    
+[32mcaret-minimize-diagonal.js          0.87KB    0.76KB    
+[32mcash-solid.js                       1.24KB    1.06KB    
+[32mcash.js                             1.10KB    0.95KB    
+[32mchannels-solid.js                   0.96KB    0.86KB    
+[32mchannels.js                         0.94KB    0.83KB    
+[32mchart-bar.js                        1.01KB    0.88KB    
+[32mchart-pie.js                        0.90KB    0.78KB    
+[32mchat-bubble-left-right-solid.js     1.13KB    0.98KB    
+[32mchat-bubble-left-right.js           1.02KB    0.89KB    
+[32mchat-bubble.js                      1.07KB    0.94KB    
+[32mcheck-circle-mini-solid.js          0.96KB    0.84KB    
+[32mcheck-circle-solid.js               0.96KB    0.83KB    
+[32mcheck-circle.js                     0.83KB    0.71KB    
+[32mcheck-mini.js                       0.79KB    0.68KB    
+[32mcheck.js                            0.79KB    0.68KB    
+[32mchevron-double-left-mini-solid.js   0.82KB    0.70KB    
+[32mchevron-double-left.js              0.81KB    0.70KB    
+[32mchevron-double-right-mini-solid.js  0.82KB    0.70KB    
+[32mchevron-double-right.js             0.81KB    0.70KB    
+[32mchevron-down-mini.js                0.90KB    0.79KB    
+[32mchevron-down.js                     0.79KB    0.68KB    
+[32mchevron-left-mini.js                0.80KB    0.69KB    
+[32mchevron-left.js                     0.89KB    0.79KB    
+[32mchevron-right-mini.js               0.80KB    0.69KB    
+[32mchevron-right.js                    0.79KB    0.68KB    
+[32mchevron-up-down.js                  0.98KB    0.84KB    
+[32mchevron-up-mini.js                  0.79KB    0.69KB    
+[32mcircle-arrow-up.js                  0.84KB    0.73KB    
+[32mcircle-dotted-line.js               1.00KB    0.87KB    
+[32mcircle-filled-solid.js              0.86KB    0.75KB    
+[32mcircle-half-solid.js                0.87KB    0.76KB    
+[32mcircle-mini-filled-solid.js         0.86KB    0.75KB    
+[32mcircle-mini-solid.js                0.89KB    0.79KB    
+[32mcircle-minus.js                     0.82KB    0.71KB    
+[32mcircle-quarter-solid.js             0.88KB    0.77KB    
+[32mcircle-sliders.js                   0.85KB    0.74KB    
+[32mcircle-solid.js                     0.89KB    0.78KB    
+[32mcircle-stack-solid.js               0.94KB    0.81KB    
+[32mcircle-stack.js                     0.86KB    0.75KB    
+[32mcircle-three-quarters-solid.js      0.95KB    0.83KB    
+[32mclock-changed-solid-mini.js         1.08KB    0.93KB    
+[32mclock-solid-mini.js                 1.08KB    0.93KB    
+[32mclock-solid.js                      1.07KB    0.93KB    
+[32mclock.js                            0.94KB    0.82KB    
+[32mclone-dashed.js                     0.91KB    0.80KB    
+[32mcloud-arrow-down.js                 1.01KB    0.88KB    
+[32mcloud-arrow-up.js                   0.97KB    0.85KB    
+[32mcode-commit.js                      0.82KB    0.71KB    
+[32mcode-merge.js                       0.84KB    0.73KB    
+[32mcog-six-tooth-solid.js              1.20KB    1.03KB    
+[32mcog-six-tooth.js                    1.19KB    1.03KB    
+[32mcommand-line-solid.js               0.90KB    0.78KB    
+[32mcommand-line.js                     0.95KB    0.83KB    
+[32mcomponent-solid.js                  0.97KB    0.85KB    
+[32mcomponent.js                        0.91KB    0.79KB    
+[32mcomputer-desktop-solid.js           1.04KB    0.89KB    
+[32mcomputer-desktop.js                 0.96KB    0.84KB    
+[32mcredit-card-solid.js                0.93KB    0.81KB    
+[32mcredit-card.js                      0.95KB    0.82KB    
+[32mcube-solid.js                       1.04KB    0.89KB    
+[32mcurrency-dollar-solid.js            1.20KB    1.02KB    
+[32mcurrency-dollar.js                  1.02KB    0.88KB    
+[32mcursor-arrow-rays.js                1.01KB    0.89KB    
+[32mdecision-process.js                 0.93KB    0.80KB    
+[32mdescending-sorting.js               0.83KB    0.71KB    
+[32mdirections.js                       0.91KB    0.78KB    
+[32mdiscord.js                          1.02KB    0.92KB    
+[32mdocument-series.js                  0.96KB    0.82KB    
+[32mdocument-text-solid.js              0.95KB    0.81KB    
+[32mdocument-text.js                    0.94KB    0.82KB    
+[32mdots-six.js                         0.81KB    0.71KB    
+[32mdrop-cap.js                         0.84KB    0.73KB    
+[32mellipse-blue-solid.js               1.22KB    1.09KB    
+[32mellipse-green-solid.js              1.22KB    1.09KB    
+[32mellipse-grey-solid.js               1.22KB    1.09KB    
+[32mellipse-mini-solid.js               0.73KB    0.63KB    
+[32mellipse-orange-solid.js             1.22KB    1.09KB    
+[32mellipse-purple-solid.js             1.22KB    1.09KB    
+[32mellipse-red-solid.js                1.22KB    1.09KB    
+[32mellipse-solid.js                    0.81KB    0.70KB    
+[32mellipsis-horizontal.js              0.81KB    0.70KB    
+[32mellipsis-vertical.js                0.81KB    0.70KB    
+[32menvelope-solid.js                   0.93KB    0.81KB    
+[32menvelope.js                         0.96KB    0.85KB    
+[32mexclamation-circle-solid.js         0.92KB    0.81KB    
+[32mexclamation-circle.js               0.93KB    0.82KB    
+[32mexpand.js                           0.86KB    0.74KB    
+[32meye-mini.js                         0.97KB    0.85KB    
+[32meye-slash-mini.js                   1.06KB    0.92KB    
+[32meye-slash.js                        1.19KB    1.03KB    
+[32meye.js                              1.00KB    0.86KB    
+[32mface-smile.js                       0.95KB    0.83KB    
+[32mfacebook.js                         0.94KB    0.83KB    
+[32mfeatured-badge.js                   1.17KB    1.03KB    
+[32mfigma.js                            0.82KB    0.74KB    
+[32mflag-mini.js                        1.01KB    0.87KB    
+[32mflying-box.js                       0.93KB    0.81KB    
+[32mfolder-illustration.js              1.55KB    1.35KB    
+[32mfolder-open-illustration.js         1.66KB    1.47KB    
+[32mfolder-open.js                      1.01KB    0.88KB    
+[32mfolder.js                           0.91KB    0.78KB    
+[32mforward-solid.js                    0.97KB    0.84KB    
+[32mfunnel.js                           0.81KB    0.69KB    
+[32mgatsby-ex.js                        1.06KB    0.93KB    
+[32mgatsby.js                           0.92KB    0.81KB    
+[32mgift-solid.js                       1.08KB    0.94KB    
+[32mgift.js                             1.04KB    0.91KB    
+[32mgithub.js                           0.99KB    0.87KB    
+[32mglasses.js                          0.90KB    0.77KB    
+[32mglobe-europe-solid.js               1.33KB    1.12KB    
+[32mglobe-europe.js                     1.16KB    0.99KB    
+[32mgoogle.js                           0.91KB    0.80KB    
+[32mgrid-list.js                        0.89KB    0.77KB    
+[32mhand-truck.js                       0.94KB    0.81KB    
+[32mhashtag.js                          0.82KB    0.70KB    
+[32mheart-broken.js                     0.90KB    0.77KB    
+[32mheart.js                            0.95KB    0.83KB    
+[32mhistory.js                          0.84KB    0.72KB    
+[32mhouse-star.js                       0.94KB    0.81KB    
+[32mhouse.js                            0.90KB    0.78KB    
+[32minbox-solid.js                      1.10KB    0.96KB    
+[32minformation-circle-solid.js         0.98KB    0.86KB    
+[32minformation-circle.js               0.94KB    0.83KB    
+[32mjavascript-ex.js                    1.11KB    0.98KB    
+[32mjavascript.js                       0.94KB    0.83KB    
+[32mkey-solid.js                        1.01KB    0.87KB    
+[32mkey.js                              0.97KB    0.85KB    
+[32mkeyboard.js                         1.28KB    1.10KB    
+[32mklarna-ex.js                        0.90KB    0.79KB    
+[32mklarna.js                           0.76KB    0.67KB    
+[32mklaviyo.js                          0.77KB    0.67KB    
+[32mlevels.js                           0.89KB    0.77KB    
+[32mlifebuoy.js                         1.22KB    1.08KB    
+[32mlight-bulb-solid.js                 1.02KB    0.88KB    
+[32mlight-bulb.js                       0.93KB    0.81KB    
+[32mlink.js                             0.90KB    0.80KB    
+[32mlinkedin.js                         0.80KB    0.71KB    
+[32mlist-bullet.js                      0.84KB    0.73KB    
+[32mlist-checkbox.js                    0.88KB    0.76KB    
+[32mlist-tree.js                        0.90KB    0.79KB    
+[32mloader.js                           0.96KB    0.83KB    
+[32mlock-closed-solid-mini.js           0.92KB    0.80KB    
+[32mlock-closed-solid.js                0.91KB    0.80KB    
+[32mlock-open-solid.js                  0.97KB    0.85KB    
+[32mmagnifier-alert.js                  1.04KB    0.92KB    
+[32mmagnifying-glass-mini.js            0.82KB    0.71KB    
+[32mmagnifying-glass.js                 0.82KB    0.70KB    
+[32mmap-pin.js                          0.88KB    0.77KB    
+[32mmap.js                              1.01KB    0.88KB    
+[32mmastercard.js                       0.81KB    0.72KB    
+[32mmedia-play.js                       0.85KB    0.73KB    
+[32mmedusa.js                           0.78KB    0.68KB    
+[32mmeta.js                             1.27KB    1.10KB    
+[32mminus-mini.js                       0.77KB    0.66KB    
+[32mminus.js                            0.77KB    0.67KB    
+[32mmoon-solid.js                       0.94KB    0.81KB    
+[32mmoon.js                             0.94KB    0.82KB    
+[32mnewspaper.js                        1.00KB    0.88KB    
+[32mnext-js.js                          1.25KB    1.13KB    
+[32mopen-rect-arrow-out.js              0.85KB    0.75KB    
+[32mpaper-clip.js                       0.85KB    0.73KB    
+[32mparty.js                            1.06KB    0.93KB    
+[32mpause-solid.js                      0.82KB    0.71KB    
+[32mpen-plus.js                         0.87KB    0.75KB    
+[32mpencil-square-solid.js              0.98KB    0.84KB    
+[32mpencil-square.js                    0.94KB    0.82KB    
+[32mpencil.js                           0.91KB    0.79KB    
+[32mphone.js                            0.87KB    0.76KB    
+[32mphoto-solid.js                      1.03KB    0.89KB    
+[32mphoto.js                            1.15KB    1.01KB    
+[32mplay-mini-solid.js                  0.88KB    0.76KB    
+[32mplay-solid.js                       0.88KB    0.75KB    
+[32mplus-mini.js                        0.78KB    0.67KB    
+[32mplus.js                             0.78KB    0.67KB    
+[32mpuzzle-solid.js                     1.03KB    0.90KB    
+[32mpuzzle.js                           0.97KB    0.86KB    
+[32mquestion-mark-circle.js             1.15KB    0.99KB    
+[32mquestion-mark.js                    1.15KB    0.98KB    
+[32mqueue-list.js                       0.86KB    0.74KB    
+[32mreact-js-ex.js                      1.99KB    1.67KB    
+[32mreact-js.js                         0.91KB    0.81KB    
+[32mreceipt-percent.js                  1.22KB    1.07KB    
+[32mreceipt.js                          0.92KB    0.81KB    
+[32mreduce.js                           0.86KB    0.74KB    
+[32mreplay-solid.js                     0.89KB    0.77KB    
+[32mresize.js                           0.80KB    0.69KB    
+[32mrocket-launch-solid.js              1.29KB    1.12KB    
+[32mrocket-launch.js                    1.13KB    0.99KB    
+[32mrss.js                              0.84KB    0.73KB    
+[32msanity.js                           0.96KB    0.83KB    
+[32mscroll-text.js                      0.94KB    0.81KB    
+[32msendgrid.js                         0.71KB    0.61KB    
+[32mserver-solid.js                     0.99KB    0.86KB    
+[32mserver-stack-solid.js               0.94KB    0.82KB    
+[32mserver-stack.js                     1.12KB    0.97KB    
+[32mserver.js                           0.98KB    0.86KB    
+[32mshare.js                            0.83KB    0.72KB    
+[32mshield-check.js                     0.95KB    0.81KB    
+[32mshipbob.js                          0.99KB    0.87KB    
+[32mshopping-bag.js                     0.88KB    0.76KB    
+[32mshopping-cart-solid.js              0.97KB    0.84KB    
+[32mshopping-cart.js                    1.12KB    0.97KB    
+[32mshopping.js                         1.06KB    0.91KB    
+[32msidebar-left.js                     0.93KB    0.81KB    
+[32msidebar-right.js                    0.93KB    0.82KB    
+[32mslack.js                            0.87KB    0.78KB    
+[32msnooze.js                           0.92KB    0.80KB    
+[32msparkles-mini-solid.js              1.00KB    0.86KB    
+[32msparkles-mini.js                    0.95KB    0.81KB    
+[32msparkles-solid.js                   0.99KB    0.86KB    
+[32msparkles.js                         0.94KB    0.81KB    
+[32mspinner.js                          0.97KB    0.85KB    
+[32msquare-blue-solid.js                0.82KB    0.71KB    
+[32msquare-green-solid.js               0.82KB    0.71KB    
+[32msquare-grey-solid.js                0.82KB    0.70KB    
+[32msquare-orange-solid.js              0.82KB    0.70KB    
+[32msquare-purple-solid.js              0.82KB    0.71KB    
+[32msquare-red-solid.js                 0.81KB    0.71KB    
+[32msquare-two-stack-mini.js            0.98KB    0.86KB    
+[32msquare-two-stack-solid.js           0.85KB    0.73KB    
+[32msquare-two-stack.js                 0.97KB    0.85KB    
+[32msquares-plus-solid.js               0.90KB    0.79KB    
+[32msquares-plus.js                     0.92KB    0.79KB    
+[32mstack-perspective.js                0.95KB    0.82KB    
+[32mstar-solid.js                       0.98KB    0.85KB    
+[32mstar.js                             0.91KB    0.79KB    
+[32mstopwatch.js                        0.85KB    0.73KB    
+[32mstripe.js                           0.80KB    0.71KB    
+[32msun-solid.js                        1.09KB    0.94KB    
+[32msun.js                              0.93KB    0.82KB    
+[32mswatch-solid.js                     0.96KB    0.83KB    
+[32mswatch.js                           1.05KB    0.94KB    
+[32mtag-illustration.js                 1.71KB    1.51KB    
+[32mtag-solid.js                        0.93KB    0.82KB    
+[32mtag.js                              1.04KB    0.91KB    
+[32mtailwind.js                         0.85KB    0.75KB    
+[32mtarget.js                           0.93KB    0.81KB    
+[32mtax-exclusive.js                    1.12KB    0.98KB    
+[32mtax-inclusive.js                    1.14KB    1.00KB    
+[32mtext-highlight.js                   0.96KB    0.83KB    
+[32mtext.js                             0.98KB    0.85KB    
+[32mthumb-down.js                       1.03KB    0.89KB    
+[32mthumb-up.js                         1.02KB    0.90KB    
+[32mthumbnail-badge.js                  1.25KB    1.10KB    
+[32mtimeline-vertical.js                0.99KB    0.87KB    
+[32mtools-solid.js                      1.12KB    0.97KB    
+[32mtools.js                            1.00KB    0.88KB    
+[32mtop-to-bottom.js                    0.91KB    0.81KB    
+[32mtrash.js                            0.88KB    0.76KB    
+[32mtriangle-down-mini.js               0.89KB    0.76KB    
+[32mtriangle-left-mini.js               0.87KB    0.76KB    
+[32mtriangle-right-mini-hover.js        0.89KB    0.77KB    
+[32mtriangle-right-mini.js              0.89KB    0.77KB    
+[32mtriangle-up-mini.js                 0.89KB    0.76KB    
+[32mtriangles-mini.js                   0.97KB    0.84KB    
+[32mtrophy.js                           0.93KB    0.80KB    
+[32mtruck-fast.js                       1.03KB    0.92KB    
+[32mtypescript-ex.js                    1.21KB    1.04KB    
+[32mtypescript.js                       1.07KB    0.97KB    
+[32muser-group.js                       1.08KB    0.92KB    
+[32muser-mini.js                        0.89KB    0.77KB    
+[32muser.js                             0.89KB    0.77KB    
+[32musers-solid.js                      1.05KB    0.90KB    
+[32musers.js                            1.00KB    0.86KB    
+[32mvercel.js                           0.88KB    0.77KB    
+[32mverified-badge.js                   1.31KB    1.14KB    
+[32mvisa.js                             1.07KB    0.91KB    
+[32mwand-sparkle.js                     1.13KB    0.99KB    
+[32mwebshipper.js                       1.32KB    1.16KB    
+[32mwindow.js                           1.14KB    1.00KB    
+[32mx-circle-solid.js                   0.96KB    0.84KB    
+[32mx-circle.js                         0.89KB    0.79KB    
+[32mx-mark-mini.js                      0.79KB    0.67KB    
+[32mx-mark.js                           0.78KB    0.68KB    
+[32mx.js                                0.72KB    0.64KB    
+[32m                                    334.52KB  291.02KB  
+[0m
+[1m[33m(!) Plugin visualizer: rollup output configuration missing sourcemap = true. You should add output.sourcemap = true or disable sourcemap in this plugin[39m[22m
+[1m[33m(!) Plugin visualizer: index.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: academic-cap-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: academic-cap.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: adjustments-done.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: adjustments.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ai-assistent-luminosity.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ai-assistent.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: amazon.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: apple.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: archive-box.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-down-circle.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-down-left-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-down-left.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-down-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-down-right-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-down-tray.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-down.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-left-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-left.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-long-down.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-long-left.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-long-right.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-long-up.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-path-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-path.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-right-down.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-right-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-right-on-rectangle.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-right.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-up-circle-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-up-down.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-up-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-up-right-micro.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-up-right-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-up-right-on-box.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-up-tray.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrow-uturn-left.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrows-pointing-out-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrows-pointing-out.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: arrows-reduce-diagonal.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: at-symbol.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: backward-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: bars-arrow-down.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: bars-three.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: beaker.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: bell-alert-done.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: bell-alert-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: bell-alert.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: bolt-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: bolt.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: book-open.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: book.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: bookmarks.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: bottom-to-top.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: brackets.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: broom-sparkle.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: bug-ant-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: bug.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: building-storefront.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: building-tax.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: buildings-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: buildings-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: buildings.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: button.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: calendar-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: calendar-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: calendar.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: camera.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: caret-maximize-diagonal.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: caret-minimize-diagonal.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: cash-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: cash.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: channels-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: channels.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chart-bar.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chart-pie.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chat-bubble-left-right-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chat-bubble-left-right.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chat-bubble.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: check-circle-mini-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: check-circle-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: check-circle.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: check-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: check.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-double-left-mini-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-double-left.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-double-right-mini-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-double-right.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-down-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-down.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-left-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-left.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-right-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-right.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-up-down.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: chevron-up-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-arrow-up.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-dotted-line.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-filled-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-half-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-mini-filled-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-mini-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-minus.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-quarter-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-sliders.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-stack-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-stack.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: circle-three-quarters-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: clock-changed-solid-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: clock-solid-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: clock-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: clock.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: clone-dashed.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: cloud-arrow-down.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: cloud-arrow-up.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: code-commit.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: code-merge.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: cog-six-tooth-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: cog-six-tooth.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: command-line-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: command-line.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: component-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: component.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: computer-desktop-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: computer-desktop.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: credit-card-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: credit-card.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: cube-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: currency-dollar-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: currency-dollar.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: cursor-arrow-rays.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: decision-process.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: descending-sorting.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: directions.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: discord.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: document-series.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: document-text-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: document-text.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: dots-six.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: drop-cap.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ellipse-blue-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ellipse-green-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ellipse-grey-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ellipse-mini-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ellipse-orange-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ellipse-purple-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ellipse-red-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ellipse-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ellipsis-horizontal.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: ellipsis-vertical.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: envelope-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: envelope.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: exclamation-circle-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: exclamation-circle.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: expand.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: eye-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: eye-slash-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: eye-slash.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: eye.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: face-smile.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: facebook.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: featured-badge.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: figma.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: flag-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: flying-box.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: folder-illustration.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: folder-open-illustration.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: folder-open.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: folder.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: forward-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: funnel.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: gatsby-ex.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: gatsby.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: gift-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: gift.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: github.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: glasses.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: globe-europe-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: globe-europe.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: google.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: grid-list.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: hand-truck.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: hashtag.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: heart-broken.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: heart.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: history.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: house-star.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: house.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: inbox-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: information-circle-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: information-circle.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: javascript-ex.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: javascript.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: key-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: key.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: keyboard.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: klarna-ex.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: klarna.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: klaviyo.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: levels.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: lifebuoy.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: light-bulb-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: light-bulb.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: link.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: linkedin.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: list-bullet.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: list-checkbox.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: list-tree.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: loader.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: lock-closed-solid-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: lock-closed-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: lock-open-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: magnifier-alert.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: magnifying-glass-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: magnifying-glass.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: map-pin.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: map.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: mastercard.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: media-play.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: medusa.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: meta.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: minus-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: minus.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: moon-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: moon.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: newspaper.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: next-js.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: open-rect-arrow-out.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: paper-clip.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: party.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: pause-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: pen-plus.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: pencil-square-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: pencil-square.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: pencil.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: phone.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: photo-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: photo.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: play-mini-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: play-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: plus-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: plus.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: puzzle-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: puzzle.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: question-mark-circle.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: question-mark.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: queue-list.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: react-js-ex.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: react-js.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: receipt-percent.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: receipt.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: reduce.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: replay-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: resize.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: rocket-launch-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: rocket-launch.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: rss.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: sanity.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: scroll-text.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: sendgrid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: server-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: server-stack-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: server-stack.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: server.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: share.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: shield-check.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: shipbob.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: shopping-bag.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: shopping-cart-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: shopping-cart.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: shopping.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: sidebar-left.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: sidebar-right.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: slack.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: snooze.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: sparkles-mini-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: sparkles-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: sparkles-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: sparkles.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: spinner.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: square-blue-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: square-green-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: square-grey-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: square-orange-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: square-purple-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: square-red-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: square-two-stack-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: square-two-stack-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: square-two-stack.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: squares-plus-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: squares-plus.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: stack-perspective.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: star-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: star.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: stopwatch.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: stripe.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: sun-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: sun.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: swatch-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: swatch.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: tag-illustration.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: tag-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: tag.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: tailwind.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: target.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: tax-exclusive.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: tax-inclusive.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: text-highlight.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: text.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: thumb-down.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: thumb-up.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: thumbnail-badge.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: timeline-vertical.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: tools-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: tools.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: top-to-bottom.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: trash.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: triangle-down-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: triangle-left-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: triangle-right-mini-hover.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: triangle-right-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: triangle-up-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: triangles-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: trophy.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: truck-fast.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: typescript-ex.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: typescript.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: user-group.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: user-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: user.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: users-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: users.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: vercel.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: verified-badge.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: visa.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: wand-sparkle.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: webshipper.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: window.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: x-circle-solid.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: x-circle.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: x-mark-mini.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: x-mark.js missing source map[39m[22m
+[1m[33m(!) Plugin visualizer: x.js missing source map[39m[22m
+[32mcreated [1mdist/esm[22m in [1m3.5s[22m[39m

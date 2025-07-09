@@ -1,0 +1,5 @@
+
+> @medusajs/currency@2.8.6 resolve:aliases
+> tsc --showConfig -p tsconfig.json > tsconfig.resolved.json && tsc-alias -p tsconfig.resolved.json && rimraf tsconfig.resolved.json
+
+[1G[0K[1G[0K⠙[1G[0K
