@@ -4,27 +4,21 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 const path = require('path');
 
-console.log('🚀 Starting Medusa in production mode with admin interface...');
+console.log('🚀 Starting Medusa in production mode...');
 
-// Check if admin build exists
-const adminBuildPath = path.join(__dirname, '.medusa', 'admin');
-if (!fs.existsSync(adminBuildPath)) {
-  console.log('📦 Admin build not found, building complete project...');
+// Check if backend build exists
+const backendBuildPath = path.join(__dirname, '.medusa', 'server');
+if (!fs.existsSync(backendBuildPath)) {
+  console.log('📦 Backend build not found, building backend only...');
   try {
-    // Build everything including admin with increased memory
-    execSync('NODE_OPTIONS="--max-old-space-size=2048" npx medusa build', { 
+    // Build backend only (admin is disabled in config)
+    execSync('NODE_OPTIONS="--max-old-space-size=1024" npx medusa build --no-admin', { 
       stdio: 'inherit',
-      env: { ...process.env, NODE_OPTIONS: '--max-old-space-size=2048' }
+      env: { ...process.env, NODE_OPTIONS: '--max-old-space-size=1024' }
     });
-    console.log('✅ Complete build completed successfully');
+    console.log('✅ Backend build completed successfully');
   } catch (error) {
-    console.log('⚠️ Build failed, trying without admin...');
-    try {
-      execSync('npx medusa build --no-admin', { stdio: 'inherit' });
-      console.log('✅ Backend build completed (no admin)');
-    } catch (error2) {
-      console.log('⚠️ All builds failed, starting server anyway');
-    }
+    console.log('⚠️ Build failed, starting server anyway');
   }
 }
 
