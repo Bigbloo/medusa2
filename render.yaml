@@ -11,7 +11,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: DATABASE_URL
-        value: postgresql://medusa:OCSg5gp84TDq50NvE3Pg7wP9xm3z3FF9@dpg-d1mq3kgdl3ps73cieogg-a.oregon-postgres.render.com/medusa_jyxk
+        value: postgresql://medusa:OCSg5gp84TDq50NvE3Pg7wP9xm3z3FF9@dpg-d1mq3kgdl3ps73cieogg-a.oregon-postgres.render.com/medusa_jyxk?sslmode=require
       - key: JWT_SECRET
         generateValue: true
       - key: COOKIE_SECRET
