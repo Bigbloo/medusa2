@@ -3,8 +3,8 @@ services:
     name: medusa-backend
     runtime: node
     plan: starter
-    buildCommand: yarn install && yarn build
-    startCommand: node start-production.js
+    buildCommand: yarn install --frozen-lockfile
+    startCommand: node start-production-simple.js
     healthCheckPath: /health
     envVars:
       - key: NODE_ENV
