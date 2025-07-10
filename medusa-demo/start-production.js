@@ -6,20 +6,16 @@ const path = require('path');
 
 console.log('🚀 Starting Medusa in production mode...');
 
-// Check if backend build exists
-const backendBuildPath = path.join(__dirname, '.medusa', 'server');
-if (!fs.existsSync(backendBuildPath)) {
-  console.log('📦 Backend build not found, building backend only...');
-  try {
-    // Build backend only (admin is disabled in config)
-    execSync('NODE_OPTIONS="--max-old-space-size=1024" npx medusa build', { 
-      stdio: 'inherit',
-      env: { ...process.env, NODE_OPTIONS: '--max-old-space-size=1024' }
-    });
-    console.log('✅ Backend build completed successfully');
-  } catch (error) {
-    console.log('⚠️ Build failed, starting server anyway');
-  }
+// Force build admin and backend
+console.log('📦 Building backend and admin...');
+try {
+  execSync('node force-admin-build.js', { 
+    stdio: 'inherit',
+    env: { ...process.env, NODE_OPTIONS: '--max-old-space-size=2048' }
+  });
+  console.log('✅ Build completed successfully');
+} catch (error) {
+  console.log('⚠️ Build failed, starting server anyway');
 }
 
 // Start the server

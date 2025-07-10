@@ -1,6 +1,6 @@
 const { MedusaApp } = require("@medusajs/framework");
 
-module.exports = async function getApiKey() {
+async function getApiKey() {
   const app = await MedusaApp({
     workerMode: "shared"
   });
@@ -19,5 +19,14 @@ module.exports = async function getApiKey() {
     
   } catch (error) {
     console.error("Error:", error.message);
+  } finally {
+    await app.shutdown();
   }
-};
+}
+
+// Execute if run directly
+if (require.main === module) {
+  getApiKey().catch(console.error);
+}
+
+module.exports = getApiKey;
