@@ -5,7 +5,7 @@ services:
     runtime: node
     plan: starter
     rootDir: medusa-demo
-    buildCommand: yarn install --frozen-lockfile
+    buildCommand: yarn install --frozen-lockfile && node init-production-complete.js
     startCommand: node start-production-final.js
     healthCheckPath: /
     envVars:
