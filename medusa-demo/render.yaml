@@ -16,10 +16,10 @@ services:
       - key: COOKIE_SECRET
         generateValue: true
       - key: STORE_CORS
-        value: http://localhost:8000
+        value: http://localhost:8000,https://medusa-storefront-production.onrender.com
       - key: ADMIN_CORS
-        value: http://localhost:9000
+        value: http://localhost:9000,https://medusa2-0tjn.onrender.com
       - key: AUTH_CORS
-        value: http://localhost:8000,http://localhost:9000
+        value: http://localhost:8000,http://localhost:9000,https://medusa-storefront-production.onrender.com,https://medusa2-0tjn.onrender.com
       - key: MEDUSA_ADMIN_ONBOARDING_TYPE
         value: default

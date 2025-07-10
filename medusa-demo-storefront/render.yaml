@@ -9,11 +9,13 @@ services:
       - key: NODE_ENV
         value: production
       - key: MEDUSA_BACKEND_URL
-        value: https://medusa-backend-*.onrender.com
+        value: https://medusa2-0tjn.onrender.com
+      - key: NEXT_PUBLIC_MEDUSA_BACKEND_URL
+        value: https://medusa2-0tjn.onrender.com
       - key: NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY
-        value: # This will need to be set manually after backend deployment
+        value: pk_0e6a8c9498dbfcbe077f15866357ad9d5e0769fdb7b04faa0cc2c20b66717930
       - key: NEXT_PUBLIC_BASE_URL
-        value: https://medusa-storefront-*.onrender.com
+        value: https://medusa-storefront-production.onrender.com
       - key: NEXT_PUBLIC_DEFAULT_REGION
         value: fr
       - key: NEXT_PUBLIC_STRIPE_KEY
