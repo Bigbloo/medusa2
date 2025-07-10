@@ -1,12 +1,13 @@
 services:
-  # Backend Medusa seulement pour commencer
+  # Backend Medusa (déjà déployé)
   - type: web
     name: medusa-backend
     runtime: node
     plan: starter
     rootDir: medusa-demo
-    buildCommand: yarn install && yarn build
-    startCommand: node start-production.js
+    buildCommand: yarn install --frozen-lockfile
+    startCommand: node start-production-simple.js
+    healthCheckPath: /health
     envVars:
       - key: NODE_ENV
         value: production
@@ -17,10 +18,34 @@ services:
       - key: COOKIE_SECRET
         generateValue: true
       - key: STORE_CORS
-        value: http://localhost:8000
+        value: http://localhost:8000,https://medusa-storefront-production.onrender.com
       - key: ADMIN_CORS
-        value: http://localhost:9000
+        value: http://localhost:9000,https://medusa2-0tjn.onrender.com
       - key: AUTH_CORS
-        value: http://localhost:8000,http://localhost:9000
+        value: http://localhost:8000,http://localhost:9000,https://medusa-storefront-production.onrender.com,https://medusa2-0tjn.onrender.com
       - key: MEDUSA_ADMIN_ONBOARDING_TYPE
         value: default
+
+  # Storefront Next.js (nouveau)
+  - type: web
+    name: medusa-storefront-production
+    runtime: node
+    plan: free
+    rootDir: medusa-demo-storefront
+    buildCommand: yarn install && yarn build
+    startCommand: yarn start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MEDUSA_BACKEND_URL
+        value: https://medusa2-0tjn.onrender.com
+      - key: NEXT_PUBLIC_MEDUSA_BACKEND_URL
+        value: https://medusa2-0tjn.onrender.com
+      - key: NEXT_PUBLIC_MEDUSA_PUBLISHABLE_KEY
+        value: pk_0e6a8c9498dbfcbe077f15866357ad9d5e0769fdb7b04faa0cc2c20b66717930
+      - key: NEXT_PUBLIC_BASE_URL
+        value: https://medusa-storefront-production.onrender.com
+      - key: NEXT_PUBLIC_DEFAULT_REGION
+        value: fr
+      - key: REVALIDATE_SECRET
+        generateValue: true
