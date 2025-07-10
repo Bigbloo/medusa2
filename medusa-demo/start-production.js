@@ -12,7 +12,7 @@ if (!fs.existsSync(backendBuildPath)) {
   console.log('📦 Backend build not found, building backend only...');
   try {
     // Build backend only (admin is disabled in config)
-    execSync('NODE_OPTIONS="--max-old-space-size=1024" npx medusa build --no-admin', { 
+    execSync('NODE_OPTIONS="--max-old-space-size=1024" npx medusa build', { 
       stdio: 'inherit',
       env: { ...process.env, NODE_OPTIONS: '--max-old-space-size=1024' }
     });
