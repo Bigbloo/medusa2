@@ -4,7 +4,7 @@ services:
     runtime: node
     plan: starter
     buildCommand: yarn install --frozen-lockfile && node init-production-complete.js
-    startCommand: node start-production-final.js
+    startCommand: node start-simple.js
     healthCheckPath: /
     envVars:
       - key: NODE_ENV
